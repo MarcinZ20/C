@@ -22,3 +22,11 @@ Programs and algorithms in C
 - zamiana liter małych na duze za pomocą ASCII
 
 ### Lab4
+  - funkcje
+  - zwracany typ funkcji
+  - reukrencja
+
+### Tic-tac-toe 
+  - gra z wykorzystaniem algorytmu minimax
+  - plansza 3x3
+  - komputer nigdy nie przegra
