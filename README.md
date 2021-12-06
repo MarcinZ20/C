@@ -36,3 +36,8 @@ Programs and algorithms in C
   - przewiduje 3 ruchy do przodu
   - przy depth = 4 wiesza się ...
   - teoretycznie da się z nią wygrać!
+
+### Chess 
+  - algorytm minimax
+  - przewiduje 6 ruchów do przodu 
+  - działa 
