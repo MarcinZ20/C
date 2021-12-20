@@ -41,3 +41,11 @@ Programs and algorithms in C
   - algorytm minimax
   - przewiduje 6 ruchów do przodu 
   - działa 
+
+### Linked-list
+- wstawianie na koniec listy
+- wstawianie na początek listy
+- usuwanie elementu
+- usuwanie całej listy
+- wyświetlanie całej listy
+- znajdowanie elementu w liście
