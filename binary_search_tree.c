@@ -7,12 +7,12 @@ typedef struct node {
     struct node *right_child;
 } node;
 
+node *copy_tree(node *root);
 node *create_node(double value);
 node *find_value(node *root, double value);
-void print_tree(node *root);
 void add_element(node **root_ptr, double value);
+void print_tree(node *root);
 void destroy(node *root);
-
 
 int main(void) {
 
@@ -28,7 +28,10 @@ int main(void) {
 
     print_tree(root);
     find_value(root, 5);
+    node *second = copy_tree(root);
     destroy(root);
+    printf("\n\n\nSecond:\n");
+    print_tree(second);
     return 0;
 }
 
@@ -108,4 +111,18 @@ void destroy(node *root) {
     destroy(root->left_child);
     destroy(root->right_child);
     free(root);
+}
+
+node *copy_tree(node *root) {
+
+    if (root == NULL) {
+        return NULL;
+    }
+
+    node *new_node = create_node(root->value);
+
+    new_node->left_child = copy_tree(root->left_child);
+    new_node->right_child = copy_tree(root->right_child);
+
+    return new_node;
 }
