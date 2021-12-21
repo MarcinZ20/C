@@ -59,3 +59,9 @@ Programs and algorithms in C
 - wyświetlanie całej listy
 - znajdowanie elementu w liście
 - kopiowanie listy (nie działa ...)
+
+### Binary search tree
+- wstawianie do drzewa
+- znajdowanie wartości
+- usuwanie drzewa
+- kopiowanie drzewa (do zrobienia)
