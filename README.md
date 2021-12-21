@@ -64,4 +64,4 @@ Programs and algorithms in C
 - wstawianie do drzewa
 - znajdowanie wartości
 - usuwanie drzewa
-- kopiowanie drzewa (do zrobienia)
+- kopiowanie drzewa 
