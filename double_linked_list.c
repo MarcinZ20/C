@@ -145,21 +145,23 @@ void destroy(node_t *head) {
 
 node_t *copy_list(node_t *head) {
 
-    node_t *new_head = NULL, *temp = head, *new_node, *previous;
+    node_t *temp = head;
+    node_t *new_head = NULL;
+    node_t *new_node, *previous;
 
     while (temp != NULL) {
         new_node = malloc(sizeof(node_t));
         new_node->value = temp->value;
-        new_node->previous = NULL;
 
         if (new_head == NULL) {
+            new_node->previous = NULL;
             new_head = new_node;
+            previous = new_head;
         } else {
             new_node->previous = previous;
-            new_node->previous->next = new_node;
-            (*new_node).next = new_node;
+            previous->next = new_node;
+            previous = previous->next;
         }
-        previous = temp;
         temp = temp->next;
     }
     if (new_head != NULL) {
