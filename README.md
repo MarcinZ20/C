@@ -49,3 +49,13 @@ Programs and algorithms in C
 - usuwanie całej listy
 - wyświetlanie całej listy
 - znajdowanie elementu w liście
+- kopiowanie listy
+
+### Double linked-list
+- wstawianie na koniec listy
+- wstawianie na początek listy
+- usuwanie elementu
+- usuwanie całej listy
+- wyświetlanie całej listy
+- znajdowanie elementu w liście
+- kopiowanie listy (nie działa ...)
