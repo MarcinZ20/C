@@ -65,3 +65,13 @@ Programs and algorithms in C
 - znajdowanie wartości
 - usuwanie drzewa
 - kopiowanie drzewa 
+
+### Comunicator 
+- basic client-server app
+- you can use it as a comunicator between two terminals
+- problems with buffer clearance
+
+### file-transfer
+- used to transfer files via socket 
+- uses arpha/inet.h
+- creates file with the same content as the file.txt
