@@ -77,7 +77,7 @@ Programs and algorithms in C
 - creates file with the same content as the file.txt
 
 ### ttt-socket
-- program based on client-server architecture
+- tic-tac-toe game based on client-server architecture
 - client makes move and sends it to server
 - server puts move on the board and sends it to client
 - using minimax algorythm
