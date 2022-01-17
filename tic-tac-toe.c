@@ -108,7 +108,7 @@ int minimax(char board[SIZE][SIZE], int depth, int ai_move, int *x, int *y) {
     
     score = rate_situation(board);
 
-    if (score == WIN || score == LOST) return score;
+    if (score == WIN || score == LOST || depth == 0) return score;
 
     if (ai_move) {
         for (px = 0, max_score = 10 * LOST; px < SIZE; px++) {
