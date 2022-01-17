@@ -70,9 +70,9 @@ int main() {
 
         // 3. Check if someone won (e - end, d - draw)
         if (move[3] == 'e') {
-            close(socket2);
             printf("End of the game!");
             close(socket2);
+            close(socket1);
             return 0;
         }
 
